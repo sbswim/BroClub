@@ -1,3 +1,65 @@
-h1 {
-color: #5599FF
+/*PAGE DIVIDERS */
+
+#wrapper {
+width: 100%;
+height: 100%;
+margin: 0;
+}
+#header{
+   background-color: blue;
+   height: 100px;
+   width: 1500px;
+   border-radius: 10px;
+   margin-left: -10px;
+      margin-top : -20px;
+   position: relative;
+}
+#nav {
+   background-color: yellow;
+   height: 1000px;
+   width:110px;
+   border-radius: 10px;
+margin-left: -10px;
+margin-top: -16px;
+position: relative;
+}
+#content{
+   background-color: red;
+   height: 1000px;
+   width: 1410px;
+   position: relative;
+   margin-left: 100px;
+   margin-top: -1000px;
+   border-radius: 10px;
+}
+
+/*********TEXT********/
+.title{
+   padding: 10px;
+   font-family: fantasy;
+   text-shadow: 2px 2px 2px yellow;
+}
+.subtitle{
+   margin-top: -60px;
+   font-family: cursive;
+   text-shadow: 1px 1px 1px red;
+   text-align: center;
+   font-size: 2.5em;
+   text-decoration: underline;
+}
+/********* NAVBAR ***********/
+#nav li{
+   display: block;
+      padding-top: 20px;
+      margin-left:-15px;
+         list-style: none;
+}
+#nav ul {
+   list-style: none;
+}
+#nav ul li a{
+   text-decoration: none;
+   font-size: 1.5em;
+   text-align: center;
+      list-style: none;
 }
